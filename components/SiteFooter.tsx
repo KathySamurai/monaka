@@ -11,8 +11,9 @@ export function SiteFooter() {
           <SiteLogo size="footer" />
         </Link>
         <nav className="site-footer__nav" aria-label="フッター">
-          <Link href="/play/individual">個人の方へ</Link>
-          <Link href="/play/business">企業の方へ</Link>
+          <Link href="/asobu">個人の方へ</Link>
+          <Link href="/team">企業の方へ</Link>
+          <Link href="/about">会社概要</Link>
           {GLOBAL_NAV.map((item) => (
             <Link key={item.href} href={item.href}>
               {item.label}
